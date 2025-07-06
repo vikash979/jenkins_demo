@@ -1,0 +1,19 @@
+# File: .github/workflows/linux-command.yml
+
+name: Run Linux Command
+
+on:
+  push:              # Runs when you push code
+  workflow_dispatch: # Allows manual run from GitHub UI
+
+jobs:
+  run-shell:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a simple Linux command
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "List files:"
+          ls -la
