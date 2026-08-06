@@ -5,6 +5,8 @@ and 3 for Null pointer exception and Array index out of
 bound exception, respectively. Use, Try, Catch block for
 each exception individually.*/
 
+
+
 //Code-
 import java.util.Scanner;
 public class Main {
